@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        dialog{
+            color: white;
+            background-color: gray;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <button id="open">open</button>
+    <dialog id="box">
+        <h1>hello</h1>
+    </dialog>
+
+    <script>
+        document.getElementById("open").onclick = function(){
+            document.getElementById("box").show()
+        }
+    </script>
+</body>
+</html>
