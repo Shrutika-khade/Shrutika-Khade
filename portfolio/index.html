@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: #1f2235;
+            color: #fff;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .bg-image{
+            background-image: url(https://cdn.wallpapersafari.com/13/9/FbSeTs.jpg);
+    
+            width: 100%;
+            height: 500px;
+            
+        }
+    
+        .nav-links{
+            padding: 30px;
+            margin-right: 150px;
+        }
+        a{
+            color: white;
+            margin-left: 15px;
+        }
+        h2{
+            color: rgb(242, 76, 76);
+            margin-left: 150px;
+        }
+        b{
+            color: #fff;
+        }
+        .home{
+           color: rgb(242, 76, 76); 
+        }
+        .btn{
+             padding: 10px 22px;
+             background: transparent;
+             color: #ff4a57;
+             border: 1.5px solid #ff4a57;
+             border-radius: 6px;
+             font-size: 14px;
+             cursor: pointer;
+            transition: all 0.3s ease;
+            margin-left: 20px;
+        }
+        .hero-center{
+            text-align: center;
+            margin-top: 50px;
+
+        }
+        .hero-center img{
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid;
+            margin-bottom: -20px;
+        }
+        .hero-center h1{
+            color: #ff4a57;
+            font-size: 40px;
+            margin-bottom: 8px;
+        }
+        .hero-center p{
+            color: #ccc;
+            font-size: 15px;
+       }
+
+       .about{
+        
+            margin-top: 70px;
+            display: flex;
+            padding: 20px;
+            border-radius: 6px;
+            gap: 50px;  
+        }
+        .red{
+            color: #ff4a57;
+        }
+        .heading{
+        
+            color: #fff;
+            font-size: x-large;
+        }
+        p{
+            font-size: small;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .my-info{
+            display: flex;
+            border: 1px solid #ff4a57;
+            gap: 100px;
+            
+            border: 2px solid #ff4d6d;
+            padding: 30px 50px;
+            display: inline-flex;   /* important */
+        
+        }
+        .btn{
+            color: #fff;
+            background: #ff4a57;
+            margin-top: 20px;
+            margin-left: 0%;
+            border-radius: 6px;
+        }
+        .my-image{
+             width: 300px;    
+             height: 100%;
+             
+        }
+
+
+    </style>
+</head>
+<body>
+    <section class="bg-image">
+    <header>
+        <h2><b>Y</b>azen</h2>
+
+        <nav class="nav-links">
+            <a class="home" href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Resume</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+
+            <button class="btn">Contact Me</button>
+        </nav>
+    </header>
+    <main>
+        <div class="hero-center">
+                <img src="https://d2v5dzhdg4zhx3.cloudfront.net/web-assets/images/storypages/short/linkedin-profile-picture-maker/dummy_image/thumb/004.webp" alt="profile">
+                <h1>Razan Smith</h1>
+                <p>A Creative Freelancer & Full Stack Developer</p>
+        </div>
+    </main>
+    </section>
+
+    <section class="about">
+        <div >
+            <img class="my-image"  src="https://tse2.mm.bing.net/th/id/OIP.DnQq__W5pibltm9H65jDLQHaE8?pid=Api&P=0&h=180" alt="my image">
+
+        </div>
+        
+        
+        <div class="about-me">
+            <span ><b class="red">Discover</b></span>
+            <div>
+            <span > <b class="heading">About me</b></span>
+            </div>
+
+            <p>Razn Smith is an MCA student and aspiring Java Full-Stack Developer with strong 
+                interest in backend development and modern web technologies. 
+                She has hands-on experience in building full-stack web applications using Java, 
+                Spring Boot, Flask, HTML, CSS, JavaScript, and MySQL.</p>
+
+            <div class="my-info">
+                   <div>
+                       <p><strong>Name:</strong>Razan Smith</p> 
+                       <p><strong>Phone:</strong>+1 212 451-4127</p> 
+                       <p><strong>Experience:</strong>6 Years</p>
+                       <p><strong>Skype:</strong>razan.smith</p>
+                    </div>
+
+                    <div>
+                        <p><strong>Age:</strong>26</p>
+                        <p><strong>Address:</strong>New York, USA</p>
+                        <p><strong>Freelance:</strong>Available</p>
+                        <p><strong>Dribbble:</strong>smith.dribbble</p>
+
+                    </div>
+             </div> 
+             
+             <div>
+                <button class="btn">DOWNLOAD CV</button>
+             </div>
+        </div>
+
+    </section>
+</body>
+</html>
